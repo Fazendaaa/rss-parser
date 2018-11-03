@@ -4,7 +4,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "mocha --exit",
+    "test": "mocha --exit && tsd-check",
     "build": "./scripts/build.sh"
   },
   "author": "Bobby Brennan",
@@ -18,6 +18,7 @@
     "express": "^4.16.3",
     "mocha": "^5.2.0",
     "puppeteer": "^1.8.0",
+    "tsd-check": "^0.2.1",
     "webpack": "^3.12.0"
   },
   "dependencies": {
